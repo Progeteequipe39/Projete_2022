@@ -6,6 +6,7 @@ public class Dialogue : MonoBehaviour
 {
    public string[] speechTxt;
    public string actorName;
+   bool caixa = false;
 
    public LayerMask playerLayer;
    public float radious;
@@ -25,9 +26,10 @@ private void FixedUpdate()
 
 private void Update()
 {
-    if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+    if((caixa == false) && (Input.GetKeyDown(KeyCode.E) && onRadious))
     {
-       dc.Speech(speechTxt, actorName);
+       dc.Speech(speechTxt);
+       caixa = true;
     }
 }
 

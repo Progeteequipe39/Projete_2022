@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\TrocarFase.cs" />
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\Dialogue.cs" />
      <Compile Include="Assets\DialogueControl.cs" />

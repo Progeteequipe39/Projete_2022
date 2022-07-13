@@ -8,18 +8,16 @@ public class DialogueControl : MonoBehaviour
    [Header("Components")]
    public GameObject dialogueObj;
    public Text speechText;
-   public Text actorNameText;
 
    [Header("Settings")]
    public float typingSpeed;
    private string[] sentences;
    private int index;
 
-   public void Speech(string[] txt, string actorName)
+   public void Speech(string[] txt)
    {
        dialogueObj.SetActive(true);
        sentences= txt;
-       actorNameText.text = actorName;
        StartCoroutine(TypeSentence());
    }
 
