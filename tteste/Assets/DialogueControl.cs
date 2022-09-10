@@ -14,6 +14,7 @@ public class DialogueControl : MonoBehaviour
    private string[] sentences;
    private int index;
 
+
    public void Speech(string[] txt)
    {
        dialogueObj.SetActive(true);

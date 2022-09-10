@@ -11,11 +11,14 @@ public class Player : MonoBehaviour
     public bool NoChao;
 
     private Rigidbody2D rig;
+
+    Animator anim;
    
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
     }
 
@@ -35,12 +38,19 @@ public class Player : MonoBehaviour
 
         if(inputAxis > 0)
         {
+           anim.SetBool("run",true);
            transform.eulerAngles = new Vector2 (0f, 0f);
         }
 
           if(inputAxis < 0)
         {
+            anim.SetBool("run",true);
            transform.eulerAngles = new Vector2 (0f, 180f);
+        }
+
+        if(inputAxis == 0)
+        {
+            anim.SetBool("run",false);
         }
     }
 
