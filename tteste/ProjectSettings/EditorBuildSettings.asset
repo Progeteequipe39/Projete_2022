@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PCCerto.unity
     guid: a6ec01fd004ad0d409ff4aaafaf79aaa
+  - enabled: 1
+    path: Assets/Scenes/AUTOMA.unity
+    guid: 54756b8aeeb265840936d89b57908260
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
