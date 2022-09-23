@@ -47,15 +47,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Coletavel.cs" />
-     <Compile Include="Assets\TrocarFase.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\PC.cs" />
-     <Compile Include="Assets\Coletavel2.cs" />
-     <Compile Include="Assets\Menu.cs" />
-     <Compile Include="Assets\Dialogue.cs" />
-     <Compile Include="Assets\Balaao.cs" />
-     <Compile Include="Assets\DialogueControl.cs" />
+     <Compile Include="Assets\Scripts\Coletavel.cs" />
+     <Compile Include="Assets\Scripts\TrocarFase.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Coletavel3.cs" />
+     <Compile Include="Assets\Scripts\PC.cs" />
+     <Compile Include="Assets\Scripts\Coletavel2.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Coletavel4.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\Music.cs" />
+     <Compile Include="Assets\Scripts\Balaao.cs" />
+     <Compile Include="Assets\Scripts\ScoreTextScript.cs" />
+     <Compile Include="Assets\Scripts\DialogueControl.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -279,7 +284,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -627,91 +632,91 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="PsdPlugin">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Psdimporter.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Path.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Triangle.Runtime">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Runtime">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Common.Editor">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
- <HintPath>C:/Users/Guilherme Carvalho/Desktop/Projete/tteste/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Guilherme Carvalho/Desktop/hh/Projete_2022/tteste/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
