@@ -858,10 +858,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2010202787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bba9fc49cc34a848bd5827bde242e36, type: 3}
+  m_Script: {fileID: 11500000, guid: 56a920081c6c9a744b09c7ab027a0bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDaFase: Fase 1
+  nomeDaFase: Intro
 --- !u!4 &2010202789
 Transform:
   m_ObjectHideFlags: 0
