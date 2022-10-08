@@ -1,0 +1,19 @@
+ATIVAR RGB
+
+bind "w" "+forward; toggle cl_crosshaircolor 1 2 3 4 5 0"
+bind "s" "+back; toggle cl_crosshaircolor 1 2 3 4 5 0" 
+bind "a" "+moveleft; toggle cl_crosshaircolor 1 2 3 4 5 0" 
+bind "d" "+moveright; toggle cl_crosshaircolor 1 2 3 4 5 0" 
+bind "CTRL" "+duck; toggle cl_crosshaircolor 1 2 3 4 5 0" 
+bind "SPACE" "+jump; toggle cl_crosshaircolor 1 2 3 4 5 0" 
+bind "MOUSE1" "+attack; toggle cl_crosshaircolor 1 2 3 4 5 0"
+
+DESATIVAR RGB
+
+bind "w" "+forward 
+bind "s" "+back 
+bind "a" "+moveleft 
+bind "d" "+moveright 
+bind "CTRL" "+duck 
+bind "SPACE" "+jump 
+bind "MOUSE1" "+attack
