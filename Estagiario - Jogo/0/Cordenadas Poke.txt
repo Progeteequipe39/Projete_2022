@@ -1,5 +1,0 @@
-41.662211, -0.894182 (Zaragoza)
-40.7589, -73.9851 (New York, Times square)
-37.8095, -122.4101 (San Francisco Pier 39)
-40.75512, -73.9836 (New York)
--22.244506,-45.707438 (Srs)
